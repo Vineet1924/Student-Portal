@@ -1,0 +1,132 @@
+﻿.datePicker {
+    background: #fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;
+}
+
+.datePicker::-webkit-inner-spin-button {
+        display: none;
+    }
+
+.datePicker::-webkit-calendar-picker-indicator {
+       opacity: 0;
+}
+
+.datePicker {
+    display:flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width:47%;
+    height:40px;
+}
+
+.select-menu {
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 375px;
+    border: none;
+}
+
+.select-menu .select-btn {
+    display: flex;
+    height: 55px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.select-menu .options {
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.options {
+    display: none;
+}
+
+.options .option {
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    padding: 0 16px;
+    border-radius: 8px;
+    align-items: center;
+    background-color: white;
+}
+
+    .options .option:hover {
+        background-color: #f2f2f2;
+    }
+
+.select-btn {
+    width: 375px;
+    border: none;
+}
+
+li{
+    padding:5px;
+    cursor:pointer;
+}
+
+    li:has(:hover) {
+        background-color: #f2f2f2;
+    }
+
+body {
+    background: rgb(99, 39, 120)
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8
+}
+
+.profile-button {
+    background: rgb(99, 39, 120);
+    box-shadow: none;
+    border: none
+}
+
+    .profile-button:hover {
+        background: #682773
+    }
+
+    .profile-button:focus {
+        background: #682773;
+        box-shadow: none
+    }
+
+    .profile-button:active {
+        background: #682773;
+        box-shadow: none
+    }
+
+.back:hover {
+    color: #682773;
+    cursor: pointer
+}
+
+.labels {
+    font-size: 11px
+}
+
+.add-experience:hover {
+    background: #BA68C8;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #BA68C8
+}
